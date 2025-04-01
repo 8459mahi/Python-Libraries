@@ -1,5 +1,5 @@
-- 👋 Hi, I’m Mahadevi Lokhande
--👨🏻‍🎓 I'm a second year MCS computer science at Swami Ramanand Teerth Marathwada University, Nanded(SRTMUN).
+- 👋 Hi, I’m Mahadevi Lokhande <br>
+-👨🏻‍🎓 I'm a second year MCS computer science at Swami Ramanand Teerth Marathwada University, Nanded(SRTMUN).<br>
 -👀 I'm familiar with Data Analysis.
 -🌱 I’m currently learning ML.
 -💞️ I’m looking to collaborate on any project related to Data Analysis
