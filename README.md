@@ -1,8 +1,8 @@
 - 👋 Hi, I’m Mahadevi Lokhande <br>
-👨🏻‍🎓 I'm a second year MCS computer science at Swami Ramanand Teerth Marathwada University, Nanded(SRTMUN).<br>
-👀 I'm familiar with Data Analysis.<br>
-🌱 I’m currently learning ML.<br>
-💞️ I’m looking to collaborate on any project related to Data Analysis<br>
-☎️ Let's connect at : https://www.linkedin.com/in/mahadevi-lokhande-98582a247<br>
-🦉 Proficient in English, Marathi and Hindi languages<br>
-✌️ Thank you for visiting my github profile.<br>
+- 👨🏻‍🎓 I'm a second year MCS computer science at Swami Ramanand Teerth Marathwada University, Nanded(SRTMUN).<br>
+- 👀 I'm familiar with Data Analysis.<br>
+- 🌱 I’m currently learning ML.<br>
+- 💞️ I’m looking to collaborate on any project related to Data Analysis<br>
+- ☎️ Let's connect at : https://www.linkedin.com/in/mahadevi-lokhande-98582a247<br>
+- 🦉 Proficient in English, Marathi and Hindi languages<br>
+- ✌️ Thank you for visiting my github profile.<br>
