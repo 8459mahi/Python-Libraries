@@ -1,10 +1,3 @@
-## Hi there 👋
-
-<!--
-**8459mahi/8459mahi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
 - 👋 Hi, I’m Mahadevi Lokhande
 -👨🏻‍🎓 I'm a second year MCS computer science at Swami Ramanand Teerth Marathwada University, Nanded(SRTMUN).
 -👀 I'm familiar with Data Analysis.
@@ -13,4 +6,3 @@ Here are some ideas to get you started:
 -☎️ Let's connect at : https://www.linkedin.com/in/mahadevi-lokhande-98582a247
 -🦉 Proficient in English, Marathi and Hindi languages
 -✌️ Thank you for visiting my github profile.
--->
