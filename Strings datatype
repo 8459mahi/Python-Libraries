@@ -1,0 +1,295 @@
+#Functions in strings
+1) 
+name="john"
+age=24
+b="my name is {}. and my age is {}"
+print(b.format(name,age))
+
+#2)isalpha - returns true if all characters in the string are alphabet.
+a="hello"
+b="123Hello"
+c="1234567"
+d=" "
+e="HELLO"
+f="Hello 123"
+g="1.234"
+print(a,a.isalpha())
+print(b,b.isalpha())
+print(c,c.isalpha())
+print(d,d.isalpha())
+print(e,e.isalpha())
+print(f,f.isalpha())
+print(g,g.isalpha())
+
+#3)aplanumeric - isalnum()
+print(a,a.isalnum())
+print(b,b.isalnum())
+print(c,c.isalnum())
+print(d,d.isalnum())
+print(e,e.isalnum())
+print(f,f.isalnum())
+print(g,g.isalnum())
+
+#4)isdecimal -return true if all characters in the string are decimal.
+print(a,a.isdecimal())
+print(b,b.isdecimal())
+print(c,c.isdecimal())
+print(g,g.isdecimal())
+
+# 5)isdigit - returns true if all characters in the string are digits.
+print(g,g.isdigit())
+print(c,c.isdigit())
+
+# 6)isnumeric - returns true if all characters in string are numeric.
+print(b,b.isnumeric())
+print(c,c.isnumeric())
+print(e,e.isnumeric())
+
+#7) islower - ccheck a string is lower case or not.
+print(a,a.islower())
+print(e,e.islower())
+
+#8) isupper - check a string is upper or not.
+print(a,a.isupper())
+print(e,e.isupper())
+
+#9) isspace - returns true if all characters in the string are whitespaces.
+print(f,f.isspace())
+print(g,g.isspace())
+print(d,d.isspace())
+
+#10) istitle - return true if the string follow the rules of a title.
+h="Harry Potter And The Global Of Fire"
+i="Hello everyone"
+
+print(h,h.istitle())
+print(i,i.istitle())
+
+# 11)endswith - return true if the string ends with the specified value.
+a="Harry Potter"
+print(a.endswith("t",6,9))
+print(a.endswith("r"))
+
+#12) startswith - return true if the string starts with the specified value.
+print(a.startswith("H"))
+print(a.startswith("P",6,9))
+
+#13)swapcase() - Swap cases, lower case becomes upper case and vice versa.
+a="Harry Potter"
+print(a.swapcase())
+
+# 14)strip() - returns a trimmed version of the string
+
+a="       Harry Potter     "
+print(a)
+print(a.strip())
+
+#15) split() - splits the string at the specified separator , and returns a lis.
+a="#OOF#BRB#OMW#TB"
+b="hello. my name is mahi. i am 23 years old"
+print(b.split("."))
+print(a.split("#"))
+
+#16)ljust() - returns a left justified version of the string.
+a="Harry Potter "
+x=a.ljust(20)
+print(x,"is my favorite movie")
+x=a.ljust(20,"*")
+print(x,"is my favorite movie")
+
+#17)rjust() - return a right justified version of the string.
+a="harry potter"
+x=a.rjust(20,"-")
+print(x,"is my favorite movie")
+
+#18) replace() - returns a string where a specified value is replaced with a specified value.
+a="my name is john. john like to play cricket"
+print(a)
+print(a.replace("john","mahi"))
+
+#19)rindex() - searches the string for a specified value and returns last position of where it was found.
+a="Harry potter and the prisoner of azkaban"
+print(a.rindex("p",0,9))
+print(a.rindex("Harry"))
+
+#20) rfind - searches the string for a specified value and returns last position of where it was found.
+a="Harry Potter and the prisoner of azkaban"
+print(a.rfind("Potter"))
+print(a.rfind("i",6,14))
+
+# 21)Slicing of strings
+
+a="Harry Potter and the Goblet of fire"
+print(a[0:5])
+print(a[6:12])
+print(a[:5])
+print(a[-4:])
+
+b="0123456789"
+print(b[::2])
+print(b[::3])
+print(b[:7:2])
+print(b[::-1])   # reverse
+print(b[6::-1])
+
+#1)Fibonacci series up to 10 number
+a=0
+b=1
+
+print(a)
+print(b)
+for i in range(2,11):
+    c=a+b
+    a=b
+    b=c
+    print(c)
+
+# if number is prime number or not
+
+num=int(input("Enter a number: "))
+
+if num<=1:
+    print("it is not a prime number")
+
+else:
+    for i in range(2, num):
+        if num%i==0:
+            print("it is not a prime number")
+            break
+    else:
+        print("it is prime number")
+
+# option 2
+num = int(input("Enter a number: "))
+for i in range(2, num):
+    if num%i==0:
+        print("it is not a prime number")
+        break
+else:
+    print("it is prime number")
+
+
+#check is palindrome or not.
+num=int(input("Enter a number: "))
+temp=num
+rev=0
+while num>0:
+    dig=num%10
+
+    rev=rev*10+dig
+    num=num//10
+if rev==temp:
+    print("is palindrome")
+else:
+    print("is not palindrome")
+
+
+# Area calculator
+print("***** Area Calculator *****")
+while True:
+    print(""press 1 to get the area of square
+    press 2 to get the area of rectangle
+    press 3 to get the area of circle
+    press 4 to get the area of triangle"")
+
+    choice=int(input("Enter a number between 1 and 4:"))
+
+    if choice ==1:
+        while True:
+            side=float(input("Enter the length of one side:"))
+            area=side**2
+            print("the area of square is",area)
+            repeat=input("do you want to try again with square? ")
+            if repeat=="no":
+                break
+
+    elif choice==2:
+        while True:
+            length=float(input("Enter the length of rectangle:"))
+            width=float(input("Enter the width of rectangle:"))
+            area=length*width
+            print("the area of rectangle is",area)
+            repeat = input("do you want to try again with rectangle? ")
+            if repeat == "no":
+                break
+
+    elif choice==3:
+        while True:
+            radius=float(input("Enter the radius of circle:"))
+            area= ((22/7)*(radius ** 2))
+            print("the area of circle is",area)
+            repeat = input("do you want to try again with circle? ")
+            if repeat == "no":
+                break
+
+    elif choice==4:
+        while True:
+            base=float(input("Enter the base of triangle:"))
+            height=float(input("Enter the height of triangle:"))
+            area=0.5 * base * height
+            print("the area of triangle is",area)
+            repeat = input("do you want to try again with triangle? ")
+            if repeat == "no":
+                break
+
+
+    repeat1=input("do you want to repeat the menu again?")
+    if repeat1 == "no":
+        break
+    else:
+        print("invalid choice")
+
+
+
+a="00TD.YOLO.ASAP.BRB.GTG.OTW"
+#1) write a program to separate the following string into coma(,) seperated values.
+print(a.split("."))
+
+# 2) write a program to sort strings alphabetically in python.
+b=input("Enter anything here: ")
+print(sorted(b))
+
+#3)write a program to remove a given character from a string.
+a="hello"
+print(a.replace("e",""))
+
+#4)write a program to remove dot(.) from the following string.
+z="F.R.I.E.N.D.S"
+print(z.replace(".",""))
+
+# 5) write a program to check the number of occurrence of a substring in a string.
+x="she sells seashells on the sea store"
+print(x.count("sea"))
+
+
+# 6) Take an input from a user as a string then, reverse it.
+str1=input("Enter any string here: ")
+print(str1[::-1])
+
+# 7) write a program to check if a string contains only digits.
+a="123abc"
+print(a.isdigit())
+
+# 8) write a program to check if a string is palindrome or not.
+str2=input("Enter any string here: ")
+rev=str2[::-1]
+
+if str2==rev:
+    print("it is palindrome")
+else:
+    print("is not palindrome")
+
+# 9) write a program to find number of vowels in a string.
+s=input("Enter any string here: ")
+vowels="aeiouAEIOU"
+count=0
+for i in s:
+    if i in vowels:
+        count=count+1
+print("the number of vowels in following string are",count)
+
+"""
+
+# 10) write a program to check if every word in a string . begins with a capital letter.
+a=input("Enter any string here: ")
+print(a.istitle())
